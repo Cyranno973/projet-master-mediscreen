@@ -1,0 +1,87 @@
+version: '3.9'
+services:
+  db-patients:
+    container_name: db-patients
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_DATABASE: 'mediscreen'
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./data/patients:/docker-entrypoint-initdb.d
+    networks:
+      - mediscreen-network
+
+  db-notes:
+    image: mongo:5.0.2
+    container_name: db-notes
+    environment:
+      - MONGO_INITDB_DATABASE=mediscreen
+    ports:
+      - "27018:27017"
+    networks:
+      - mediscreen-network
+
+  db-notes-setup:
+    image: mongo:5.0.2
+    container_name: db-notes-setup
+    volumes:
+      - ./data/notes:/docker-entrypoint-initdb.d
+    entrypoint: mongoimport --drop --host db-notes --db mediscreen --collection history --type json --file /docker-entrypoint-initdb.d/note-init.json --jsonArray
+    networks:
+      - mediscreen-network
+
+  mediscreen-patient:
+    container_name: mediscreen-patient
+    depends_on:
+      - db-patients
+    build:
+      context: ./mediscreen
+      dockerfile: Dockerfile.patient
+    ports:
+      - "8282:8282"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db-patients:3306/mediscreen?enabledTLSProtocols=TLSv1.2&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    networks:
+      - mediscreen-network
+
+  mediscreen-note:
+    container_name: mediscreen-note
+    depends_on:
+      - db-notes
+    build:
+      context: ./mediscreenN
+      dockerfile: Dockerfile.note
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATA_MONGODB_HOST=db-notes
+      - SPRING_DATA_MONGODB_PORT=27017
+      - SPRING_DATA_MONGODB_DATABASE=mediscreen
+    networks:
+      - mediscreen-network
+
+  mediscreen-rapport:
+    container_name: mediscreen-rapport
+    build:
+      context: ./rapport
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+    networks:
+      - mediscreen-network
+
+  mediscreen-angular:
+    container_name: mediscreen-front
+    build:
+      context: ./mediscreen-front
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
+
+networks:
+  mediscreen-network:

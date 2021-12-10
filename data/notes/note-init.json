@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "45",
+    "consultations": [
+      {
+        "_id": "d7426853-6441-4d99-bfd9-8e13dce9e16f",
+        "observations": "aeaae",
+        "recommendations": "stephanie semble malade\n\nHémoglobine A1C,\n Microalbumine,\n Taille,\n Poids,\n Fumeur,\n Anormal,\n Cholestérol,\n Vertige,",
+        "date": "2021-12-02"
+      },
+      {
+        "_id": "fdee9eee-1281-407e-ad05-67c929110f9a",
+        "observations": "aeassasa",
+        "recommendations": "aesasa",
+        "date": "2021-12-06"
+      }
+    ],
+    "_class": "com.example.demo.model.History"
+  },
+  {
+    "_id": "33",
+    "consultations": [
+      {
+        "_id": "0b371222-4831-485a-84f5-f846efaabeed",
+        "observations": "a",
+        "recommendations": "Hémoglobine A1C,\n Microalbumine,\nTaille,\n Poids,\n\n",
+        "date": "2021-12-02"
+      }
+    ],
+    "_class": "com.example.demo.model.History"
+  },
+  {
+    "_id": "69",
+    "consultations": [
+      {
+        "_id": "2841d9bb-2f42-4117-a981-9791505abeae",
+        "observations": "aaza",
+        "recommendations": "\"Le patient déclare qu'il ne se sent pas si fatigué que ça\nFumeur, il a arrêté dans les 12 mois précédents\nTests de laboratoire indiquant que les anticorps sont élevés\"",
+        "date": "Wed Dec 01 00:00:00 CET 2021"
+      },
+      {
+        "_id": "6dbdbb57-a007-4ec3-8f8d-99f7bb08dc3e",
+        "observations": "mmm",
+        "recommendations": "Hémoglobine A1C,\nMicroalbumine,\n Taille,\n Poids,\nFumeur,\n",
+        "date": "2021-12-02"
+      }
+    ],
+    "_class": "com.example.demo.model.History"
+  },
+  {
+    "_id": "71",
+    "consultations": [
+      {
+        "_id": "a0501445-b1bc-4486-aadd-3ebb96363e31",
+        "observations": "m12345",
+        "recommendations": "mo",
+        "date": "2021-12-02"
+      },
+      {
+        "_id": "7a07977b-fd8e-4c35-a7e8-d1a4a56dfb09",
+        "observations": "az",
+        "recommendations": "ae",
+        "date": "2021-12-02"
+      },
+      {
+        "_id": "764ebb51-d02f-4e64-b3aa-409b1b6c8de6",
+        "observations": "qeas",
+        "recommendations": "q",
+        "date": "2021-12-02"
+      },
+      {
+        "_id": "475ba736-2489-49b8-9f92-03081044aecf",
+        "observations": "tee",
+        "recommendations": "ta",
+        "date": "2021-12-02"
+      }
+    ],
+    "_class": "com.example.demo.model.History"
+  },
+  {
+    "_id": "27",
+    "consultations": [
+      {
+        "_id": "ea9852cb-d2bb-47d0-a805-5eb06723e1a9",
+        "observations": "a",
+        "recommendations": "\n Microalbumine,\n Taille,",
+        "date": "2021-12-02"
+      }
+    ],
+    "_class": "com.example.demo.model.History"
+  }
+]

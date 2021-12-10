@@ -1,0 +1,18 @@
+@import "src/styles";
+
+#container-table-patient{
+  margin: 0 auto;
+  width: 80%;
+}
+
+mat-paginator {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
