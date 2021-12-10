@@ -1,5 +1,6 @@
 package com.gouin.mediscreen.service.impl;
 
+
 import com.gouin.mediscreen.MediscreenApplication;
 import com.gouin.mediscreen.exception.UserNotFoundException;
 import com.gouin.mediscreen.model.Patient;
@@ -118,8 +119,5 @@ class PatientServiceImplTest {
         verify(patientRepository, times(1)).save(this.patient);
 
     }
-    @Test
-    public void applicationContextTest() {
-        MediscreenApplication.main(new String[] {});
-    }
+
 }

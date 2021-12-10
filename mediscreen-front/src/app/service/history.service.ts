@@ -21,6 +21,7 @@ export class HistoryService {
   }
 
   public createHistory(historyDTO: HistoryDTO): Observable<HistoryP> {
+    console.log(historyDTO);
     return this.http.post<HistoryP>(`${this.apiServerUrl}/add`, historyDTO);
   }
 

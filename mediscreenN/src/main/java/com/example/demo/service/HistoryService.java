@@ -5,6 +5,8 @@ import com.example.demo.dto.HistoryDTO;
 import com.example.demo.exception.HistoryNotFoundException;
 import com.example.demo.model.History;
 import com.example.demo.repo.HistoryRepository;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -15,13 +17,10 @@ import java.util.Objects;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+@AllArgsConstructor
 @Service
 public class HistoryService {
     private final HistoryRepository historyRepository;
-
-    public HistoryService(HistoryRepository historyRepository) {
-        this.historyRepository = historyRepository;
-    }
 
     public List<History> findAllHistory() {
         return historyRepository.findAll();
@@ -30,7 +29,7 @@ public class HistoryService {
     public History addHistory(HistoryDTO historyDTO) {
         Consultation newConsultation = new Consultation();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate dateNow =  LocalDate.now();
+        LocalDate dateNow = LocalDate.now();
         String d2 = dateTimeFormatter.format(dateNow);
         newConsultation.setId(UUID.randomUUID().toString());
         newConsultation.setDate(d2);
