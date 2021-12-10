@@ -1,92 +1,340 @@
 [
   {
-    "_id": "45",
-    "consultations": [
+    "_id" : "71",
+    "consultations" : [
       {
-        "_id": "d7426853-6441-4d99-bfd9-8e13dce9e16f",
-        "observations": "aeaae",
-        "recommendations": "stephanie semble malade\n\nHémoglobine A1C,\n Microalbumine,\n Taille,\n Poids,\n Fumeur,\n Anormal,\n Cholestérol,\n Vertige,",
-        "date": "2021-12-02"
+        "_id" : "a0501445-b1bc-4486-aadd-3ebb96363e31",
+        "observations" : "m12345",
+        "recommendations" : "mo",
+        "date" : "2021-12-02"
       },
       {
-        "_id": "fdee9eee-1281-407e-ad05-67c929110f9a",
-        "observations": "aeassasa",
-        "recommendations": "aesasa",
-        "date": "2021-12-06"
+        "_id" : "7a07977b-fd8e-4c35-a7e8-d1a4a56dfb09",
+        "observations" : "az",
+        "recommendations" : "ae",
+        "date" : "2021-12-02"
+      },
+      {
+        "_id" : "764ebb51-d02f-4e64-b3aa-409b1b6c8de6",
+        "observations" : "qeas",
+        "recommendations" : "q",
+        "date" : "2021-12-02"
+      },
+      {
+        "_id" : "475ba736-2489-49b8-9f92-03081044aecf",
+        "observations" : "tee",
+        "recommendations" : "ta",
+        "date" : "2021-12-02"
       }
     ],
-    "_class": "com.example.demo.model.History"
+    "_class" : "com.example.demo.model.History"
   },
+
   {
-    "_id": "33",
-    "consultations": [
+    "_id" : "27",
+    "consultations" : [
       {
-        "_id": "0b371222-4831-485a-84f5-f846efaabeed",
-        "observations": "a",
-        "recommendations": "Hémoglobine A1C,\n Microalbumine,\nTaille,\n Poids,\n\n",
-        "date": "2021-12-02"
+        "_id" : "ea9852cb-d2bb-47d0-a805-5eb06723e1a9",
+        "observations" : "a",
+        "recommendations" : "\n Microalbumine,\n Taille,",
+        "date" : "2021-12-02"
       }
     ],
-    "_class": "com.example.demo.model.History"
+    "_class" : "com.example.demo.model.History"
   },
+
   {
-    "_id": "69",
-    "consultations": [
+    "_id" : "33",
+    "consultations" : [
       {
-        "_id": "2841d9bb-2f42-4117-a981-9791505abeae",
-        "observations": "aaza",
-        "recommendations": "\"Le patient déclare qu'il ne se sent pas si fatigué que ça\nFumeur, il a arrêté dans les 12 mois précédents\nTests de laboratoire indiquant que les anticorps sont élevés\"",
-        "date": "Wed Dec 01 00:00:00 CET 2021"
-      },
-      {
-        "_id": "6dbdbb57-a007-4ec3-8f8d-99f7bb08dc3e",
-        "observations": "mmm",
-        "recommendations": "Hémoglobine A1C,\nMicroalbumine,\n Taille,\n Poids,\nFumeur,\n",
-        "date": "2021-12-02"
+        "_id" : "0b371222-4831-485a-84f5-f846efaabeed",
+        "observations" : "a",
+        "recommendations" : "Hémoglobine A1C,\n Microalbumine,\nTaille,\n Poids,\n\n",
+        "date" : "2021-12-02"
       }
     ],
-    "_class": "com.example.demo.model.History"
+    "_class" : "com.example.demo.model.History"
   },
+
   {
-    "_id": "71",
-    "consultations": [
+    "_id" : "69",
+    "consultations" : [
       {
-        "_id": "a0501445-b1bc-4486-aadd-3ebb96363e31",
-        "observations": "m12345",
-        "recommendations": "mo",
-        "date": "2021-12-02"
+        "_id" : "2841d9bb-2f42-4117-a981-9791505abeae",
+        "observations" : "aaza",
+        "recommendations" : "\"Le patient déclare qu'il ne se sent pas si fatigué que ça\nFumeur, il a arrêté dans les 12 mois précédents\nTests de laboratoire indiquant que les anticorps sont élevés\"",
+        "date" : "Wed Dec 01 00:00:00 CET 2021"
       },
       {
-        "_id": "7a07977b-fd8e-4c35-a7e8-d1a4a56dfb09",
-        "observations": "az",
-        "recommendations": "ae",
-        "date": "2021-12-02"
-      },
-      {
-        "_id": "764ebb51-d02f-4e64-b3aa-409b1b6c8de6",
-        "observations": "qeas",
-        "recommendations": "q",
-        "date": "2021-12-02"
-      },
-      {
-        "_id": "475ba736-2489-49b8-9f92-03081044aecf",
-        "observations": "tee",
-        "recommendations": "ta",
-        "date": "2021-12-02"
+        "_id" : "6dbdbb57-a007-4ec3-8f8d-99f7bb08dc3e",
+        "observations" : "mmm",
+        "recommendations" : "Hémoglobine A1C,\nMicroalbumine,\n Taille,\n Poids,\nFumeur,\n",
+        "date" : "2021-12-02"
       }
     ],
-    "_class": "com.example.demo.model.History"
+    "_class" : "com.example.demo.model.History"
   },
+
   {
-    "_id": "27",
-    "consultations": [
+    "_id" : "45",
+    "consultations" : [
       {
-        "_id": "ea9852cb-d2bb-47d0-a805-5eb06723e1a9",
-        "observations": "a",
-        "recommendations": "\n Microalbumine,\n Taille,",
-        "date": "2021-12-02"
+        "_id" : "d7426853-6441-4d99-bfd9-8e13dce9e16f",
+        "observations" : "aeaae",
+        "recommendations" : "stephanie semble malade\n\nHémoglobine A1C,\n Microalbumine,\n Taille,\n Poids,\n Fumeur,\n Anormal,\n Cholestérol,\n Vertige,",
+        "date" : "2021-12-02"
+      },
+      {
+        "_id" : "fdee9eee-1281-407e-ad05-67c929110f9a",
+        "observations" : "aeassasa",
+        "recommendations" : "aesasa",
+        "date" : "2021-12-06"
       }
     ],
-    "_class": "com.example.demo.model.History"
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "75",
+    "consultations" : [
+      {
+        "_id" : "a335e0dd-0720-4b06-9822-e7fb163b477b",
+        "observations" : "a",
+        "recommendations" : "\"Le patient déclare qu'il « se sent très bien »\nPoids égal ou inférieur au poids recommandé\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "08f14e38-e2f8-4cdb-8006-0de92fcbd924",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il se sent fatigué pendant la journée\nIl se plaint également de douleurs musculaires\nTests de laboratoire indiquant une microalbumine élevée\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "9faefbc0-ef5b-43b2-b7b7-5e82eea2b5ab",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il ne se sent pas si fatigué que ça\nFumeur, il a arrêté dans les 12 mois précédents\nTests de laboratoire indiquant que les anticorps sont élevés\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "76",
+    "consultations" : [
+      {
+        "_id" : "7905692c-dcff-461c-9a54-25b544c90f31",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il ressent beaucoup de stress au travail\nIl se plaint également que son audition est anormale dernièrement\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "9be92b37-e4c3-4eea-b46e-5b07911f437c",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare avoir fait une réaction aux médicaments au cours des 3 derniers mois\nIl remarque également que son audition continue d'être anormale\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "44c885a9-bef1-44be-b960-03b45ce6f4c1",
+        "observations" : " ",
+        "recommendations" : "Tests de laboratoire indiquant une microalbumine élevée",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "cfc70e55-0071-4839-82d8-7c1b561f7202",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare que tout semble aller bien\nLe laboratoire rapporte que l'hémoglobine A1C dépasse le niveau recommandé\nLe patient déclare qu’il fume depuis longtemps\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "77",
+    "consultations" : [
+      {
+        "_id" : "6035496f-4384-45a0-8fc8-f6fb688e312c",
+        "observations" : " ",
+        "recommendations" : "Le patient déclare qu'il fume depuis peu",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "9dadc8a1-0a2e-4c2a-ba0c-e23f68fe022e",
+        "observations" : " ",
+        "recommendations" : "Tests de laboratoire indiquant une microalbumine élevéeTests de laboratoire indiquant une microalbumine élevée",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "277f60b4-342e-48d4-ad05-b12bbe8e80bb",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il est fumeur et qu'il a cessé de fumer l'année dernière\nIl se plaint également de crises d’apnée respiratoire anormales\nTests de laboratoire indiquant un taux de cholestérol LDL élevé\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "c26d64b7-7bd7-4d79-afe4-df5c1fd97d9c",
+        "observations" : " ",
+        "recommendations" : "Tests de laboratoire indiquant un taux de cholestérol LDL élevé",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "84",
+    "consultations" : [
+      {
+        "_id" : "c80491d9-1b3e-4281-8b76-001f5b1c279a",
+        "observations" : " ",
+        "recommendations" : "Le patient déclare qu'il n'a aucun problème",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "243b182e-0503-487b-8bb9-78f1a01e7a7f",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il n'a aucun problème\nTaille incluse dans la fourchette concernée\nHémoglobine A1C supérieure au niveau recommandé\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "a67764be-9c95-460c-9582-523950c2f1ad",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il n'a aucun problème\nPoids corporel supérieur au poids recommandé\nLe patient a signalé plusieurs épisodes de vertige depuis sa dernière visite\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "4d34f24a-28c3-4c22-91fe-06256ad87ab6",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il n'a aucun problème\nTests de laboratoire indiquant une microalbumine élevée\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "83",
+    "consultations" : [
+      {
+        "_id" : "f0318e31-ce96-4807-bf1a-d6e57e33caad",
+        "observations" : " ",
+        "recommendations" : "\"Le patient signale qu'il est facilement irrité par des broutilles\nIl déclare également que l'aspirateur des voisins fait trop de bruit\nTests de laboratoire indiquant que les anticorps sont élevés\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "50dffd21-511a-4fec-adb4-e7b72041ed27",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il s’impatiente facilement en cas d’attente prolongée\nIl signale également que les produits du distributeur automatique ne sont pas bons\nTests de laboratoire signalant des taux anormaux de cellules sanguines\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "5bb66930-77c6-4d5f-9d9b-e6e9655954c1",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare avoir de la difficulté à se concentrer sur ses devoirs scolaires\nHémoglobine A1C supérieure au niveau recommandé\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "82",
+    "consultations" : [
+      {
+        "_id" : "586490c1-d719-4ff5-b053-ba8b94bba883",
+        "observations" : " ",
+        "recommendations" : "\"Les tests de laboratoire indiquent que les anticorps sont élevés\nHémoglobine A1C supérieure au niveau recommandé\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "81",
+    "consultations" : [
+      {
+        "_id" : "90c6c90c-49c1-4ed2-b76a-8d80d98b7b29",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il se réveille souvent avec une raideur articulaire\nIl se plaint également de difficultés pour s’endormir\nPoids corporel supérieur au poids recommandé\nTests de laboratoire indiquant un taux de cholestérol LDL élevé\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "80",
+    "consultations" : [
+      {
+        "_id" : "0a140f5a-29c1-4d03-823e-2b9f76dda614",
+        "observations" : " ",
+        "recommendations" : "Le patient déclare qu'il se sent bien",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "41693d23-5fbb-4546-bbfc-905dabe52fb6",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il se sent bien\nPoids corporel supérieur au poids recommandé\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "79",
+    "consultations" : [
+      {
+        "_id" : "0dbc80eb-dec3-4e9c-9c0a-c4c8bb7267eb",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite.\nTests de laboratoire indiquant que les anticorps sont élevés\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "3fd42d22-2bfa-4aba-8add-b419850c4d48",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il souffre encore de douleurs cervicales occasionnelles\nTests de laboratoire indiquant une microalbumine élevée\nFumeur, il a arrêté dans les 12 mois précédents\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "bb420879-3002-466a-b2ba-d8801ed33d02",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite.\nTaille incluse dans la fourchette concernée\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "11b8adac-2a3a-4ab0-8cf4-882369010290",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare avoir des douleurs au cou occasionnellement\nLe patient remarque également que certains aliments ont un goût différent\nRéaction apparente aux médicaments\nPoids corporel supérieur au poids recommandé\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
+  },
+
+  {
+    "_id" : "78",
+    "consultations" : [
+      {
+        "_id" : "38975b8f-2ce9-49a9-80cf-bd39b3e0994c",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare avoir commencé à fumer depuis peu\nHémoglobine A1C supérieure au niveau recommandé\"",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "e8887d54-00a1-4b2d-9eaf-941b58eb3eba",
+        "observations" : " ",
+        "recommendations" : "Le patient déclare qu'il a mal au dos lorsqu'il reste assis pendant longtemps",
+        "date" : "10/12/2021"
+      },
+      {
+        "_id" : "a22ff24c-835c-4d70-a797-2c79e5727894",
+        "observations" : " ",
+        "recommendations" : "\"Le patient déclare qu'il lui est devenu difficile de monter les escaliers\nIl se plaint également d’être essoufflé\nTests de laboratoire indiquant que les anticorps sont élevés\nRéaction aux médicaments\"",
+        "date" : "10/12/2021"
+      }
+    ],
+    "_class" : "com.example.demo.model.History"
   }
 ]

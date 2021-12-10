@@ -1,10 +1,10 @@
-CREATE DATABASE  IF NOT EXISTS `mediscreen` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `mediscreen` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `mediscreen`;
 -- MySQL dump 10.13  Distrib 8.0.21, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: mediscreen
 -- ------------------------------------------------------
--- Server version	8.0.21
+-- Server version	8.0.27
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `hibernate_sequence`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `hibernate_sequence` (
   `next_val` bigint DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -48,14 +48,14 @@ DROP TABLE IF EXISTS `patient`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `patient` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `address` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `birthdate` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `first_name` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `gender` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `last_name` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `phone` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `address` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+  `birthdate` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+  `first_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+  `gender` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+  `last_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+  `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=75 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=85 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -64,7 +64,7 @@ CREATE TABLE `patient` (
 
 LOCK TABLES `patient` WRITE;
 /*!40000 ALTER TABLE `patient` DISABLE KEYS */;
-INSERT INTO `patient` VALUES (45,'11 Massy palaisseau','1967-05-10','STEVE','Feminin','GOUIN','0615356897'),(33,'24 douglas Dallas','1992-11-10','brian','Masculin','mckerney','121454556'),(27,'29 Rue de la joie 94800 VILLEJUIF ','1979-07-29','Marina','Feminin','Etoile','06.16.22.00.32'),(28,'50 boulevard de la villette ','1992-08-28','Claire','Feminin','Madina','06.23.33.85.25'),(34,'38 rue nassi','1181-04-12','Peter','Masculin','Pan','06154879'),(48,'24 rue de la pègre','2021-12-03','Danny','Masculin','Wilson','064578656'),(68,'11 bis rue Gustave charpentier, ','2021-11-17','STEVE','Masculin','GOUIN','0612950020'),(65,'Aulnay','2021-11-18','soso','Feminin','sonia','2626155150'),(70,'','2021-11-10','samantha','Feminin','linare',''),(69,NULL,'1992-11-26','moran','Masculin','Tilam',NULL);
+INSERT INTO `patient` VALUES (82,'193 Vale St ','1945-06-24','Max ','Masculin','Buckland ','833-534-0864'),(81,'12 Cobblestone St ','1966-12-31','Claire','Feminin','Wilson','300-452-1091'),(80,'40 Sulphur Springs Dr','1949-12-07','Tracey','Feminin','Ross','131-396-5049'),(79,'4 Southampton Road ','1958-06-29','Wendy ','Feminin','Ince ','802-911-9975'),(78,'894 Hall Street','1946-11-26','Anthony','Masculin','Sharp ','451-761-8383'),(75,'2 Warren Street ','1968-06-22','Lucas','Masculin','Ferguson','387-866-1399'),(76,'2 Warren Street ','1952-09-27','Pippa','Feminin','Rees','387-866-1399'),(77,'599 East Garden Ave ','1952-11-11','Edward ','Masculin','Arnold ','123-727-2779'),(83,'12 Beechwood Road','1945-06-24','Natalie ','Feminin','Clark ','241-467-9197'),(84,'1202 Bumble Dr ','1959-06-28','Piers ','Masculin','Bailey ','747-815-0557');
 /*!40000 ALTER TABLE `patient` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -77,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-12-03  0:50:42
+-- Dump completed on 2021-12-10  4:24:19
